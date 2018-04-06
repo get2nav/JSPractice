@@ -1,0 +1,26 @@
+<html>
+<script type="text/javascript">
+// function copy()
+// {
+//     var n1 = document.getElementById("n1");
+//     var n2 = document.getElementById("n2");
+ 
+// }
+    function copy() {
+        var n1 = document.getElementById("n1");
+        var n2 = document.getElementById("n2");
+        for (let i = 0; i < n1.value.length; i++) {
+            setTimeout(function (char) {
+                return function () { 
+                    n2.value += char[i];
+                    n1.value = n1.value.slice(i+1); 
+                };
+            }(n1.value), i * 1000);
+        }
+    }
+
+</script>
+<label>First</label><input type="text" name="n1" id="n1">
+<label>Second</label><input type="text" name="n2" id="n2"/>
+<input type="button" value="copy" onClick="copy();" />
+</html>

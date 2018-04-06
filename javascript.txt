@@ -1,0 +1,48 @@
+closure function -----> uses the the for loop with setTimeout example
+callback fn
+arrow fn
+
+
+
+str.match('shsh') ---> indexof can also  be used with str.indexof('shsh') != -1
+
+
+
+prototype objects - used for writing customized function like str.display()
+
+
+
+copy of a variable----
+var obj2 = object.assign({},obj);
+
+
+#####################april 5#############################
+
+
+ ways to invoke a fn is fn.call();
+                        fn.apply();
+
+the above statements are used for overriding the this.var
+
+
+
+inheritance between two functions(constructors) objects
+1. prototype
+2. using call method
+
+
+
+'let' variable scope
+
+
+use to array var arr = ['d',dd']
+                 var [dat1,dat2]= arr
+
+similar is for the dicts and objects
+
+
+const in javascript
+
+
+
+
