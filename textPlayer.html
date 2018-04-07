@@ -1,23 +1,24 @@
 <html>
 
 <head>
-  
+  <title>Text Player</title>
 </head>
 <body>
-    <form action="">
- 
-    <input type="text" id="left-input">
- 
-    <input type="text" id="right-input">
-    </br>
-    </br>
-    <input type="button" value=">>" id="towards-right" onclick="towards_right()">
-    <input type="button" value="||" id="pause-total" onclick="pause()">
-    <input type="button" value="<<" id="towards-left" onclick="towards_left()">
-
-    </form>
+    <div>
+        <h1>Text Player</h1>
+    </div>
+    <div >
+        <form>
+            <input type="text" id="left-input">
+            <input type="text" id="right-input">
+            </br>
+            </br>
+            <input type="button" value=">>" id="towards-right" onclick="leftToRight()">
+            <input type="button" value="||" id="pause-total" onclick="pause()">
+            <input type="button" value="<<" id="towards-left" onclick="rightToLeft()">
+        </form>  
+    </div>
     <script src="player.js"></script>
-
 </body>
 
 </html>
