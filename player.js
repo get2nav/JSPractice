@@ -28,14 +28,16 @@ function leftToRight() {
 };
 
 /* moves the text from right textbox to left textbox */
-function rightToLeft(){
-    clearInterval(leftLoop);
+function rightToLeft(){ 
     clearInterval(rightLoop);
+    clearInterval(leftLoop);
     
     rightLoop = setInterval(function () {
         if (rightInput.value.length !== 0) {
-            leftInput.value += rightInput.value.slice(rightInput.value.length - 1, rightInput.value.length);
-            rightInput.value = rightInput.value.slice(0, rightInput.value.length - 1);
+            // leftInput.value += rightInput.value.slice(rightInput.value.length - 1, rightInput.value.length);
+            // rightInput.value = rightInput.value.slice(0, rightInput.value.length - 1);
+            leftInput.value += rightInput.value.slice(0, 1);
+            rightInput.value = rightInput.value.slice(1, rightInput.value.length);
         } else {
             clearInterval(rightLoop);
         }
