@@ -45,4 +45,55 @@ const in javascript
 
 
 
+using the constructors keyword
+
+
+only one constructors in the javascript
+
+local storage and session storage
+
+XMLhttp request using the promise functions
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!############################ assign 3#########################!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+username
+email
+loc
+phone
+company
+radio--> male or female
+
+submit
+
+
+
+1. validation
+
+insert the error insert during the validation
+
+
+2. create a user object like this
+
+{
+    username:'asds',
+    .....
+}
+
+
+and save it in the array of objects
+
+
+
+
+3. show the users in the tables in the page
+
+
+
+local, eventbinding, insertadjacentHTML
+
+
+
 

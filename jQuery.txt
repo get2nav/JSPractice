@@ -1,0 +1,20 @@
+DOM for getting data
+
+jquery foreach loop
+
+contains in DOM select
+
+
+assigning css properties to the tag
+
+events in jQuery
+-----> on function with multi mouse events
+
+attr for setter and getter.(practice it with the on functions).
+
+
+use of append , prepend, beforea and after for adding the  tag using DOM
+
+
+ajax call 
+
